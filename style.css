@@ -4,27 +4,13 @@
     text-decoration: none;
 }
 
-.Home {
-    color: red;
-}
 
-.Start {
-    border: none;
-    border-radius: 15px;
-    padding: 15px 30px;
-    background-color: orangered;
-    color: white;
-}
 
-.Watch {
-    border: none;
-    border-radius: 15px;
-    padding: 15px 30px;
-    background-color: none;
-    color: black;
-}
+
+
 body {
     scroll-behavior: smooth;
+    width: 1174px;
 }
 
 img {
@@ -32,8 +18,129 @@ img {
     max-width: 100%;
 }
 
+
+
 .container {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0;
 }
 
+h1,
+p,
+a {
+    font-family: var(--font-family);
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin-bottom: 15px;
+    width: 1174px;
+
+}
+
+.mainLogo {
+    margin-left: 26px;
+    padding: 1.5px 0;
+    width: 137px;
+
+}
+
+.navigation {
+    width: 577px;
+    margin-left: 460px; 
+    display: flex;
+}
+
+.navigation a {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.Home {
+    font-weight: 600;
+    font-size: 14px;
+    width: 60px;
+    color: #f25822
+}
+
+.main {
+    margin-bottom: 105px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    height: 375px;
+    background: #fff;
+}
+
+.mainContent__leftSide {
+    max-width: 603px;
+    height: 375px;
+    margin-left: 26px;
+    margin-right: 31px;
+}
+
+.mainContent__leftSide h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 20px;
+    max-width: 557px;
+
+}
+
+.mainContent__leftSide p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #888;
+    margin-bottom: 32px;
+}
+
+.mainContent__leftSide-btnList button {
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    height: 51px;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    align-items: center;
+}
+
+.Start {
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    color: #fff;
+}
+
+.Watch {
+    color: #aaa;
+    background: none;
+}
+
+.footer {
+    margin-bottom: 51px;
+    display: flex;
+    max-width: 1227px;
+    padding: 100px 0;
+}
+
+.logos {
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
+}
