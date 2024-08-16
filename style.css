@@ -51,7 +51,7 @@ a {
 
 .navigation {
     width: 577px;
-    margin-left: 460px; 
+    margin-left: 460px;
     display: flex;
 }
 
@@ -69,11 +69,8 @@ a {
     color: #f25822
 }
 
-.main {
-    margin-bottom: 105px;
-}
-
 .mainContent {
+    margin-bottom: 105px;
     display: flex;
     justify-content: space-between;
     height: 375px;
@@ -132,15 +129,97 @@ a {
     background: none;
 }
 
-.footer {
-    margin-bottom: 51px;
-    display: flex;
-    max-width: 1227px;
-    padding: 100px 0;
-}
 
 .logos {
+    margin-bottom: 51px;
+    max-width: 1227px;
+    padding: 100px 0;
     display: flex;
     gap: 48px;
     justify-content: space-between;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 110px auto;
+    gap: 35px;
+}
+
+.card {
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    margin-bottom: 100px;
+}
+
+.SecondCard {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.Text {
+    max-width: 1174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Text h1 {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.Text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #888;
+    margin-left: 217px;
+    margin-right: 217px;
+}
+
+.Section2 {
+    background: #fafafa;
+}
+
+.bigCard {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.card h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #666;
+}
+
+.CardButton {
+    border: none;
+    border-radius: 56px;
+    padding: 16px 32px;
+    width: 166px;
+    height: 51px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    color: #fff;
 }
