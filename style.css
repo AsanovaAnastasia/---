@@ -336,7 +336,7 @@ a {
     }
 }
 
-@media (max-width: 768px) and (min-width: 375px) {
+@media (max-width: 767px) and (min-width: 375px) {
 
     .Hide {
         display: none;
@@ -362,8 +362,6 @@ a {
     .main {
         width: 375px;
         height: 363px;
-        display: flex;
-        align-items: center;
         gap: 15px;
         padding: 148px 56px 149px;
     }
@@ -402,13 +400,14 @@ a {
     .backgroundImg4 {
         width: 343px;
         height: 111px;
+        margin-bottom: 64px;
     }
 
     .secondSection {
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
-    }
+padding: 8px;    }
 
     .secondSectionText h1 {
         margin-bottom: 3px;
